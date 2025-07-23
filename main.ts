@@ -1,3 +1,14 @@
 import { overrideThemes } from 'markedit-theming';
 
-overrideThemes({});
+overrideThemes({
+  light: {
+    colors: {
+      allowsFallback: false,
+    },
+  },
+  dark: {
+    colors: {
+      allowsFallback: false,
+    },
+  },
+});
